@@ -63,11 +63,32 @@ export default function Home() {
         <div className={`${styles['label-top-border']} font-bold pt-3 pb-1`}>
           <p>Projects</p>
         </div>
-        <div className="border-t-4 border-black flex flex-col pt-3 pb-1">
-          <p className="font-bold">TCG Online</p>
-          <p className="font-bold">Fuel PM</p>
-          <p className="font-bold">Bit Conquest</p>
-          <p className="font-bold">For Preaching</p>
+        <div className="border-t-4 border-black flex flex-col">
+          <div className="pt-3 pb-1">
+            <div className="font-bold"><Link href="https://tcg.online/"><a className="font-bold hover:text-red-500">TCG Online</a></Link></div>
+            <div className="text-gray-500 text-xs">NextJS, Supabase, Vercel</div>
+            <div className="pt-2 pb-2">A place for Trading Card Game enthusiasts to find utlities for playing online and in-person, as well as learn more about the games they love.</div>
+          </div>
+          <div className="pt-3 pb-1">
+            <div className="font-bold"><Link href="https://www.fuelpm.com/"><a className="font-bold hover:text-red-500">Fuel PM (Project Management)</a></Link></div>
+            <div className="text-gray-500 text-xs">NextJS, TBD</div>
+            <div className="pt-2 pb-2">Project management should fuel your organization, not slow it down and annoy it. Designed to be used as little as possible.</div>
+          </div>
+          <div className="pt-3 pb-1">
+            <div className="font-bold"><Link href="https://sermons.forpreaching.com/"><a className="font-bold hover:text-red-500">For Preaching</a></Link></div>
+            <div className="text-gray-500 text-xs">Angular, ExpressJS, MongoDB, Docker, Amazon Lightsail</div>
+            <div className="pt-2 pb-2">An app ecosystem for pastors and teachers to track illustrations, sermons, and study guides.</div>
+          </div>
+          <div className="pt-3 pb-1">
+            <div className="font-bold"><Link href="https://www.bitconquest.com/"><a className="font-bold hover:text-red-500">Bit Conquest</a></Link></div>
+            <div className="text-gray-500 text-xs">TBD</div>
+            <div className="pt-2 pb-2">Recently acquired, still deciding what to build here. Looking for a new tech stack to try.</div>
+          </div>
+          <div className="pt-3 pb-1">
+            <div className="font-bold"><Link href="https://onsocial.io/"><a className="font-bold hover:text-red-500">OnSocial.io</a></Link></div>
+            <div className="text-gray-500 text-xs">TBD</div>
+            <div className="pt-2 pb-2">Recently acquired, still deciding what to build here. Looking for a new tech stack to try.</div>
+          </div>
         </div>
       </main>
 
