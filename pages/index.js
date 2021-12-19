@@ -19,13 +19,13 @@ export default function Home() {
           {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get In Touch</button>
           <p className="text-xs">(working button coming soon)</p> */}
         </div>
-        <div className={`${styles['label-top-border']} font-bold`}>
+        <div className={`${styles['label-top-border']} font-bold pt-3 pb-1`}>
           <p>Profile</p>
         </div>
-        <div className="pt-5 pb-5 border-t-4 border-black">
+        <div className="pt-3 pb-1 border-t-4 border-black">
           <p>A goal-oriented developer and a people person who likes to do things the right way. I have spent the last decade working in JavaScript and assorted libraries such as AngularJS, NodeJS, some React, and some NextJS. I love a challenge, whether it’s working out how to use a library I don’t know, or just helping others reach their full potential as developers.</p>
         </div>
-        <div className={`${styles['label-top-border']} font-bold`}>
+        <div className={`${styles['label-top-border']} font-bold pt-3 pb-1`}>
           <p>Experience</p>
         </div>
         <div className="border-t-4 border-black flex flex-col">
@@ -50,7 +50,7 @@ export default function Home() {
             <div className="pt-2 pb-2">Worked alongside a team of QA Engineers to leverage automated testing frameworks, such as SOAPUI and Selenium to test the existing Apache Flex UI, as well as handling manual testing as needed.</div>
           </div>
         </div>
-        <div className={`${styles['label-top-border']} font-bold`}>
+        <div className={`${styles['label-top-border']} font-bold pt-3 pb-1`}>
           <p>Education</p>
         </div>
         <div className="border-t-4 border-black flex flex-col">
@@ -60,10 +60,10 @@ export default function Home() {
             <div className="pt-2 pb-2">My degree in Computer science focused most heavily on C-based languages, with the introduction of Java my senior year into the curriculum. I also minored in math, but I promise I’m not actually that boring.</div>
           </div>
         </div>
-        <div className={`${styles['label-top-border']} font-bold`}>
+        <div className={`${styles['label-top-border']} font-bold pt-3 pb-1`}>
           <p>Projects</p>
         </div>
-        <div className="border-t-4 border-black flex flex-col">
+        <div className="border-t-4 border-black flex flex-col pt-3 pb-1">
           <p className="font-bold">TCG Online</p>
           <p className="font-bold">Fuel PM</p>
           <p className="font-bold">Bit Conquest</p>
