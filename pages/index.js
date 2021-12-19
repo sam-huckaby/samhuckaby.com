@@ -13,8 +13,7 @@ export default function Home() {
           <div className="text-left"><h1 className="text-6xl font-bold"><p>Sam</p><p>Huckaby</p></h1></div>
           <div className="text-left text-red-500 text-4xl font-bold">Sr. Software Engineer</div>
         </div>
-        <div className="pt-5 pb-5 border-t-4 border-black">
-          <p className="text-2xl font-bold">James Samuel Huckaby</p>
+        <div className="pt-5 pb-5 border-t-4 border-black items-center justify-items-center flex">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get In Touch</button>
         </div>
         <div className="font-bold">
