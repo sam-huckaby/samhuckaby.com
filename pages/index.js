@@ -1,4 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from '/styles/index.module.scss';
 
 export default function Home() {
   return (
@@ -13,18 +15,17 @@ export default function Home() {
           <div className="text-left"><h1 className="text-6xl font-bold"><p>Sam</p><p>Huckaby</p></h1></div>
           <div className="text-left text-red-500 text-4xl font-bold">Sr. Software Engineer</div>
         </div>
-        <div className="pt-5 pb-5 border-t-4 border-black items-center justify-items-center flex">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get In Touch</button>
+        <div className="pt-5 pb-5 items-center justify-center flex flex-col">
+          {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get In Touch</button>
+          <p className="text-xs">(working button coming soon)</p> */}
         </div>
-        <div className="font-bold">
-          <p>---</p>
+        <div className={`${styles['label-top-border']} font-bold`}>
           <p>Profile</p>
         </div>
         <div className="pt-5 pb-5 border-t-4 border-black">
           <p>A goal-oriented developer and a people person who likes to do things the right way. I have spent the last decade working in JavaScript and assorted libraries such as AngularJS, NodeJS, some React, and some NextJS. I love a challenge, whether it’s working out how to use a library I don’t know, or just helping others reach their full potential as developers.</p>
         </div>
-        <div className="font-bold">
-          <p>---</p>
+        <div className={`${styles['label-top-border']} font-bold`}>
           <p>Experience</p>
         </div>
         <div className="border-t-4 border-black flex flex-col">
@@ -49,23 +50,24 @@ export default function Home() {
             <div className="pt-2 pb-2">Worked alongside a team of QA Engineers to leverage automated testing frameworks, such as SOAPUI and Selenium to test the existing Apache Flex UI, as well as handling manual testing as needed.</div>
           </div>
         </div>
-        <div className="font-bold">
-          <p>---</p>
+        <div className={`${styles['label-top-border']} font-bold`}>
           <p>Education</p>
         </div>
         <div className="border-t-4 border-black flex flex-col">
           <div className="pt-3 pb-1">
-            <div><span className="font-bold">Cameron University</span>&nbsp;/&nbsp;<span>Bachelors of Science - Computer Science</span></div>
+            <div><span className="font-bold">Cameron University</span>&nbsp;/&nbsp;<span>Bachelors of Science (CS)</span></div>
             <div className="text-gray-500 text-xs">August 2009 - May 2012,  Lawton, OK</div>
             <div className="pt-2 pb-2">My degree in Computer science focused most heavily on C-based languages, with the introduction of Java my senior year into the curriculum. I also minored in math, but I promise I’m not actually that boring.</div>
           </div>
         </div>
-        <div className="font-bold">
-          <p>---</p>
+        <div className={`${styles['label-top-border']} font-bold`}>
           <p>Projects</p>
         </div>
         <div className="border-t-4 border-black flex flex-col">
           <p className="font-bold">TCG Online</p>
+          <p className="font-bold">Fuel PM</p>
+          <p className="font-bold">Bit Conquest</p>
+          <p className="font-bold">For Preaching</p>
         </div>
       </main>
 
