@@ -67,7 +67,7 @@ export default function Home() {
           <div className="pt-3 pb-1">
             <div className="font-bold"><Link href="https://tcg.online/"><a className="font-bold hover:text-red-500">TCG Online</a></Link></div>
             <div className="text-gray-500 text-xs">NextJS, Supabase, Vercel</div>
-            <div className="pt-2 pb-2">A place for Trading Card Game enthusiasts to find utlities for playing online and in-person, as well as learn more about the games they love.</div>
+            <div className="pt-2 pb-2">A place for Trading Card Game enthusiasts to find utilities for playing online and in-person, as well as learn more about the games they love.</div>
           </div>
           <div className="pt-3 pb-1">
             <div className="font-bold"><Link href="https://www.fuelpm.com/"><a className="font-bold hover:text-red-500">Fuel PM (Project Management)</a></Link></div>
