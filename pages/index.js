@@ -18,7 +18,7 @@ export default function Home() {
           <div className="text-left"><h1 className="text-6xl font-bold dark:text-white"><p>Sam</p><p>Huckaby</p></h1></div>
           <div className="text-left text-red-500 dark:text-red-400 text-4xl font-bold">Sr. Software Engineer</div>
         </div>
-        <div className="pt-5 pb-5 items-center justify-center flex flex-col">
+        <div className="pt-5 pb-5 items-center justify-start md:justify-center flex flex-col">
           <ContactButton></ContactButton>
         </div>
         <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
