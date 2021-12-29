@@ -13,24 +13,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="grid grid-cols-2 gap-2 w-full p-8 max-w-4xl">
-        <div>
+      <main className="grid grid-cols-3 gap-2 w-full p-8 max-w-4xl">
+        <div className="col-span-3 md:col-span-1">
           <div className="text-left"><h1 className="text-6xl font-bold dark:text-white"><p>Sam</p><p>Huckaby</p></h1></div>
           <div className="text-left text-red-500 dark:text-red-400 text-4xl font-bold">Sr. Software Engineer</div>
         </div>
-        <div className="pt-5 pb-5 items-center justify-start md:justify-center flex flex-col">
+        <div className="pt-5 pb-5 items-start md:items-center justify-end md:justify-center flex flex-col col-span-3 md:col-span-2">
           <ContactButton></ContactButton>
         </div>
         <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
           <p>Profile</p>
         </div>
-        <div className="pt-3 pb-1 border-t-4 border-black dark:text-white">
+        <div className="pt-3 pb-1 border-t-4 border-black dark:text-white col-span-2">
           <p>A goal-oriented developer and a people person who likes to do things the right way. I have spent the last decade working in JavaScript and assorted libraries such as AngularJS, NodeJS, some React, and some NextJS. I love a challenge, whether it’s working out how to use a library I don’t know, or just helping others reach their full potential as developers.</p>
         </div>
         <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
           <p>Experience</p>
         </div>
-        <div className="border-t-4 border-black flex flex-col">
+        <div className="border-t-4 border-black flex flex-col col-span-2">
           <div className="pt-3 pb-1 dark:text-white">
             <div><span className="font-bold">Comcast, Inc</span>&nbsp;/&nbsp;<span>Sr. Software Engineer</span></div>
             <div className="text-gray-500 dark:text-zinc-300 text-xs">June 2016 - PRESENT,  Denver, CO</div>
@@ -55,7 +55,7 @@ export default function Home() {
         <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
           <p>Education</p>
         </div>
-        <div className="border-t-4 border-black flex flex-col">
+        <div className="border-t-4 border-black flex flex-col col-span-2">
           <div className="pt-3 pb-1 dark:text-white">
             <div><span className="font-bold">Cameron University</span>&nbsp;/&nbsp;<span>Bachelors of Science (CS)</span></div>
             <div className="text-gray-500 dark:text-zinc-300 text-xs">August 2009 - May 2012,  Lawton, OK</div>
@@ -65,7 +65,7 @@ export default function Home() {
         <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
           <p>Projects</p>
         </div>
-        <div className="border-t-4 border-black flex flex-col">
+        <div className="border-t-4 border-black flex flex-col col-span-2">
           <div className="pt-3 pb-1 dark:text-white">
             <div className="font-bold"><Link href="https://tcg.online/"><a className="font-bold hover:text-red-500">TCG Online</a></Link></div>
             <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://supabase.com/" target="_blank">Supabase</a>, <a href="https://vercel.com/" target="_blank">Vercel</a></div>
