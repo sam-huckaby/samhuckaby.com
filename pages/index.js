@@ -73,7 +73,7 @@ export default function Home() {
           </div>
           <div className="pt-3 pb-1 dark:text-white">
             <div className="font-bold"><Link href="https://www.fuelpm.com/"><a className="font-bold hover:text-red-500">Fuel PM (Project Management)</a></Link></div>
-            <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, TBD</div>
+            <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, <a href="https://netlify.com/">Netlify</a>, TBD</div>
             <div className="pt-2 pb-2">Project management should fuel your organization, not slow it down and annoy it. Designed to be used as little as possible.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
