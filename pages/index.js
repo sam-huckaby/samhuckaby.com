@@ -10,6 +10,12 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen py-2 dark:bg-gray-700">
       <Head>
         <title>Sam Huckaby - Sr. Software Engineer</title>
+        <meta name="description" content="Professional profile for Sam Huckaby, Sr. Software Engineer" />
+        <meta property="og:title" content="Sam Huckaby - Sr. Software Engineer" />
+        <meta
+          property="og:description"
+          content="Professional profile for Sam Huckaby, Sr. Software Engineer"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
