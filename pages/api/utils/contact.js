@@ -10,7 +10,7 @@ export default async (req, res) => {
     const { email, sender, message } = req.body
 
     const msg = {
-        to: 'samhuckaby@gmail.com',
+        to: process.env.CONTACT_EMAIL,
         from: 'hello@samhuckaby.com',
         subject: 'SamHuckaby.com Contact Form',
         text: 'You have been contacted by ' + sender + ' <' + email + '>. Message: "' + message + '"',
