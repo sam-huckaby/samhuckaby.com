@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import ContactButton from '../components/contactButton.component';
 
@@ -73,19 +74,39 @@ export default function Home() {
         </div>
         <div className="border-t-4 border-black flex flex-col col-span-2">
           <div className="pt-3 pb-1 dark:text-white">
-            <div className="font-bold"><Link href="https://tcg.online/"><a className="font-bold hover:text-red-500">TCG Online</a></Link></div>
-            <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://www.sanity.io/" target="_blank">Sanity</a>, <a href="https://vercel.com/" target="_blank">Vercel</a></div>
+            <div className="flex flex-row">
+              <div className="flex flex-col flex-auto">
+                <div className="font-bold"><Link href="https://tcg.online/"><a className="font-bold hover:text-red-500">TCG Online</a></Link></div>
+                <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://www.sanity.io/" target="_blank">Sanity</a>, <a href="https://vercel.com/" target="_blank">Vercel</a></div>
+              </div>
+              <div className="flex flex-row justify-center items-center mr-2">
+                <a href="https://github.com/sam-huckaby/tcg-online" target="_blank" rel="noreferrer">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                </a>
+              </div>
+            </div>
             <div className="pt-2 pb-2">A place for Trading Card Game enthusiasts to find utilities for playing online and in-person, as well as learn more about the games they love.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
-            <div className="font-bold"><Link href="https://www.fuelpm.com/"><a className="font-bold hover:text-red-500">Fuel PM (Project Management)</a></Link></div>
-            <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, <a href="https://vercel.com/">Vercel</a>, <a href="https://supabase.com/" target="_blank">Supabase</a></div>
+            <div className="flex flex-row">
+              <div className="flex flex-col flex-auto">
+                <div className="font-bold"><Link href="https://www.fuelpm.com/"><a className="font-bold hover:text-red-500">Fuel PM (Project Management)</a></Link></div>
+                <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, <a href="https://vercel.com/">Vercel</a>, <a href="https://supabase.com/" target="_blank">Supabase</a></div>
+              </div>
+              <div className="flex flex-row justify-center items-center mr-2">
+                <a href="https://github.com/sam-huckaby/fuelpm.com" target="_blank" rel="noreferrer">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                </a>
+              </div>
+            </div>
             <div className="pt-2 pb-2">Project management should fuel your organization, not slow it down and annoy it. Designed to be used as little as possible.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
-            <div className="font-bold"><Link href="https://sermons.forpreaching.com/"><a className="font-bold hover:text-red-500">For Preaching</a></Link></div>
-            <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://angular.io/" target="_blank">Angular</a>, <a href="https://expressjs.com/" target="_blank">ExpressJS</a>, <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>, <a href="https://www.docker.com/" target="_blank">Docker</a>, <a href="https://aws.amazon.com/lightsail/" target="_blank">Amazon Lightsail</a></div>
-            <div className="pt-2 pb-2">[DOWN CURRENTLY] An app ecosystem for pastors and teachers to track illustrations, sermons, and study guides.</div>
+            <div className="font-bold"><Link href="https://thatfit.me/"><a className="font-bold hover:text-red-500">thatfit.me</a></Link></div>
+            <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://hydrogen.shopify.dev/" target="_blank">Hydrogen</a>, TBD</div>
+            <div className="pt-2 pb-2">Recently acquired, still deciding what to build here. Looking for a new tech stack to try.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
             <div className="font-bold"><Link href="https://www.bitconquest.com/"><a className="font-bold hover:text-red-500">Bit Conquest</a></Link></div>
@@ -96,6 +117,38 @@ export default function Home() {
             <div className="font-bold"><Link href="https://onsocial.io/"><a className="font-bold hover:text-red-500">OnSocial.io</a></Link></div>
             <div className="text-gray-500 dark:text-zinc-300 text-xs">TBD</div>
             <div className="pt-2 pb-2">Recently acquired, still deciding what to build here. Looking for a new tech stack to try.</div>
+          </div>
+          <div className="pt-3 pb-1 dark:text-white">
+            <div className="flex flex-row">
+              <div className="flex flex-col">
+                <div className="font-bold"><Link href="https://sermons.forpreaching.com/"><a className="font-bold hover:text-red-500">For Preaching</a></Link></div>
+                <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://angular.io/" target="_blank">Angular</a>, <a href="https://expressjs.com/" target="_blank">ExpressJS</a>, <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>, <a href="https://www.docker.com/" target="_blank">Docker</a>, <a href="https://aws.amazon.com/lightsail/" target="_blank">Amazon Lightsail</a></div>
+              </div>
+              <div className="flex-auto flex flex-row justify-end items-center mr-2">
+                <a href="https://github.com/sam-huckaby/forpreaching-server" className="mr-2" target="_blank">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                </a>
+                <a href="https://github.com/sam-huckaby/forpreaching-sermons" className="mr-2" target="_blank">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                </a>
+                <a href="https://github.com/sam-huckaby/forpreaching" className="mr-2" target="_blank">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                </a>
+                <a href="https://github.com/sam-huckaby/forpreaching-studies" target="_blank">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                </a>
+              </div>
+            </div>
+            <div className="pt-2 pb-2">[CURRENTLY OFFLINE] An app ecosystem for pastors and teachers to track illustrations, sermons, and study guides.</div>
+          </div>
+          <div className="pt-3 pb-1 dark:text-white">
+            <div className="font-bold"><Link href="https://www.lostrequiem.com/"><a className="font-bold hover:text-red-500">Lost Requiem</a></Link></div>
+            <div className="text-gray-500 dark:text-zinc-300 text-xs">TBD</div>
+            <div className="pt-2 pb-2">[CURRENTLY OFFLINE] An online game I started building with PHP and JS about 20 years ago that never took off. Planning to repurpose this domain at some point.</div>
           </div>
         </div>
       </main>
