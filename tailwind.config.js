@@ -6,10 +6,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {
-      display: ['dark']
-    },
-  },
   plugins: [],
 }
