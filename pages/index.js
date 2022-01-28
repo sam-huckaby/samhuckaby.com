@@ -32,7 +32,7 @@ export default function Home() {
           <p>Profile</p>
         </div>
         <div className="pt-3 pb-1 border-t-4 border-black dark:text-white col-span-2">
-          <p>A goal-oriented developer and a people person who likes to do things the right way. I have spent the last decade working in JavaScript and assorted libraries such as AngularJS, NodeJS, some React, and some NextJS. I love a challenge, whether it’s working out how to use a library I don’t know, or just helping others reach their full potential as developers.</p>
+          <p>A goal-oriented developer and a people person who likes to do things the right way. I have spent the last decade working in JavaScript and assorted libraries such as Angular/AngularJS, NodeJS. Right now my favorite libraries to work with are React and NextJS, though I am still (always) learning. I love a challenge, whether it’s working out how to use a library I don’t know, or just helping others reach their full potential as developers.</p>
         </div>
         <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
           <p>Experience</p>
