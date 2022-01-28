@@ -101,7 +101,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="pt-2 pb-2">Project management should fuel your organization, not slow it down and annoy it. Designed to be used as little as possible.</div>
+            <div className="pt-2 pb-2">Project management should fuel your organization, not slow it down and annoy it. Fuel is a mobile-first project management tool that is designed to be used as little as possible.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
             <div className="font-bold"><Link href="https://thatfit.me/"><a className="font-bold hover:text-red-500">thatfit.me</a></Link></div>
