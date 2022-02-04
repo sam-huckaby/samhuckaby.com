@@ -143,7 +143,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="pt-2 pb-2">[CURRENTLY OFFLINE] An app ecosystem for pastors and teachers to track illustrations, sermons, and study guides.</div>
+            <div className="pt-2 pb-2">An app ecosystem for pastors and teachers to track illustrations, sermons, and study guides.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
             <div className="font-bold"><Link href="https://www.lostrequiem.com/"><a className="font-bold hover:text-red-500">Lost Requiem</a></Link></div>
