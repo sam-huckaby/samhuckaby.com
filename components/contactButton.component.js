@@ -141,7 +141,7 @@ export default class ContactButton extends Component {
 
     renderContactButton() {
         return (
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={() => this.openContactForm()}>Get In Touch</button>
+            <button className="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded" onClick={() => this.openContactForm()}>Get In Touch</button>
         );
     }
 

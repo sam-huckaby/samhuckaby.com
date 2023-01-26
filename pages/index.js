@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
 
 import ContactButton from '../components/contactButton.component';
 
@@ -81,13 +80,13 @@ export default function Home() {
           <div className="pt-3 pb-1 dark:text-white">
             <div className="flex flex-col md:flex-row">
               <div className="flex flex-col flex-auto">
-                <div className="font-bold"><Link href="#"><a className="font-bold hover:text-red-500">OSS.rip</a></Link></div>
+                <div className="font-bold"><Link href="#" aria-label="A link to OSS.rip that isn't active yet" className="font-bold hover:text-red-500">OSS.rip</Link></div>
                 <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://www.sanity.io/" target="_blank">Sanity</a>, <a href="https://vercel.com/" target="_blank">Vercel</a></div>
               </div>
               <div className="flex-auto flex flex-row justify-start md:justify-end items-center pt-2 md:pt-0 mr-2">
-                <a href="https://github.com/sam-huckaby/oss.rip" target="_blank" rel="noreferrer">
-                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
-                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                <a href="https://github.com/sam-huckaby/oss.rip" aria-label="Visit the OSS.rip github repo" target="_blank" rel="noreferrer">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" alt="github logo" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" alt="github logo" height={32} width={32} />
                 </a>
               </div>
             </div>
@@ -96,62 +95,62 @@ export default function Home() {
           <div className="pt-3 pb-1 dark:text-white">
             <div className="flex flex-col md:flex-row">
               <div className="flex flex-col flex-auto">
-                <div className="font-bold"><Link href="https://www.fuelpm.com/"><a className="font-bold hover:text-red-500">Fuel PM (Project Management)</a></Link></div>
+                <div className="font-bold"><Link href="https://www.fuelpm.com/" aria-label="Visit the Fuel PM website" className="font-bold hover:text-red-500">Fuel PM (Project Management)</Link></div>
                 <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>, <a href="https://vercel.com/">Vercel</a>, <a href="https://supabase.com/" target="_blank">Supabase</a></div>
               </div>
               <div className="flex-auto flex flex-row justify-start md:justify-end items-center pt-2 md:pt-0 mr-2">
-                <a href="https://github.com/sam-huckaby/fuelpm.com" target="_blank" rel="noreferrer">
-                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
-                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                <a href="https://github.com/sam-huckaby/fuelpm.com" aria-label="Visit the Fuel PM github repo" target="_blank" rel="noreferrer">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" alt="github logo" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" alt="github logo" height={32} width={32} />
                 </a>
               </div>
             </div>
             <div className="pt-2 pb-2">Project management should fuel your organization, not slow it down and annoy it. Fuel is a mobile-first project management tool that is designed to be used as little as possible.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
-            <div className="font-bold"><Link href="https://thatfit.me/"><a className="font-bold hover:text-red-500">thatfit.me</a></Link></div>
+            <div className="font-bold"><Link href="https://thatfit.me/" className="font-bold hover:text-red-500">thatfit.me</Link></div>
             <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://hydrogen.shopify.dev/" target="_blank">Hydrogen</a>, TBD</div>
             <div className="pt-2 pb-2">Recently acquired, still deciding what to build here. Looking for a new tech stack to try.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
-            <div className="font-bold"><Link href="https://www.bitconquest.com/"><a className="font-bold hover:text-red-500">Bit Conquest</a></Link></div>
+            <div className="font-bold"><Link href="https://www.bitconquest.com/" className="font-bold hover:text-red-500">Bit Conquest</Link></div>
             <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a>, TBD</div>
             <div className="pt-2 pb-2">Recently acquired, still deciding what to build here. Looking for a new tech stack to try.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
-            <div className="font-bold"><Link href="https://onsocial.io/"><a className="font-bold hover:text-red-500">OnSocial.io</a></Link></div>
+            <div className="font-bold"><Link href="https://onsocial.io/" className="font-bold hover:text-red-500">OnSocial.io</Link></div>
             <div className="text-gray-500 dark:text-zinc-300 text-xs">TBD</div>
             <div className="pt-2 pb-2">Recently acquired, still deciding what to build here. Looking for a new tech stack to try.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
             <div className="flex flex-col md:flex-row">
               <div className="flex flex-col">
-                <div className="font-bold"><Link href="https://sermons.forpreaching.com/"><a className="font-bold hover:text-red-500">For Preaching</a></Link></div>
+                <div className="font-bold"><Link href="https://sermons.forpreaching.com/" className="font-bold hover:text-red-500">For Preaching</Link></div>
                 <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://angular.io/" target="_blank">Angular</a>, <a href="https://expressjs.com/" target="_blank">ExpressJS</a>, <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>, <a href="https://www.docker.com/" target="_blank">Docker</a>, <a href="https://aws.amazon.com/lightsail/" target="_blank">Amazon Lightsail</a></div>
               </div>
               <div className="flex-auto flex flex-row justify-start md:justify-end items-center pt-2 md:pt-0 mr-2">
-                <a href="https://github.com/sam-huckaby/forpreaching-server" className="mr-2" target="_blank">
-                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
-                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                <a href="https://github.com/sam-huckaby/forpreaching-server" aria-label="Visit the ForPreaching server github repo" className="mr-2" target="_blank">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" alt="Github logo" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" alt="github logo" height={32} width={32} />
                 </a>
-                <a href="https://github.com/sam-huckaby/forpreaching-sermons" className="mr-2" target="_blank">
-                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
-                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                <a href="https://github.com/sam-huckaby/forpreaching-sermons" aria-label="Visit the ForPreaching sermon github repo" className="mr-2" target="_blank">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" alt="github logo" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" alt="github logo" height={32} width={32} />
                 </a>
-                <a href="https://github.com/sam-huckaby/forpreaching" className="mr-2" target="_blank">
-                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
-                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                <a href="https://github.com/sam-huckaby/forpreaching" aria-label="Visit the ForPreaching website github repo" className="mr-2" target="_blank">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" alt="github logo" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" alt="github logo" height={32} width={32} />
                 </a>
-                <a href="https://github.com/sam-huckaby/forpreaching-studies" target="_blank">
-                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
-                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
+                <a href="https://github.com/sam-huckaby/forpreaching-studies" aria-label="Visit the ForPreaching studies github repo" target="_blank">
+                  <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" alt="github logo" height={32} width={32} />
+                  <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" alt="github logo" height={32} width={32} />
                 </a>
               </div>
             </div>
             <div className="pt-2 pb-2">An app ecosystem for pastors and teachers to track illustrations, sermons, and study guides.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
-            <div className="font-bold"><Link href="https://www.lostrequiem.com/"><a className="font-bold hover:text-red-500">Lost Requiem</a></Link></div>
+            <div className="font-bold"><Link href="https://www.lostrequiem.com/" className="font-bold hover:text-red-500">Lost Requiem</Link></div>
             <div className="text-gray-500 dark:text-zinc-300 text-xs">TBD</div>
             <div className="pt-2 pb-2">[CURRENTLY OFFLINE] An online game I started building with PHP and JS about 20 years ago that never took off. Planning to repurpose this domain at some point.</div>
           </div>
@@ -163,6 +162,7 @@ export default function Home() {
           className="flex items-center justify-center dark:text-white"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
+          aria-label="Check out Vercel, the company responsible for much of the tech this site is built on!"
           rel="noopener noreferrer"
         >
           Powered by&nbsp;
