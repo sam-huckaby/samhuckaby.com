@@ -39,8 +39,13 @@ export default function Home() {
         </div>
         <div className="border-t-4 border-black flex flex-col col-span-2">
           <div className="pt-3 pb-1 dark:text-white">
+            <div><span className="font-bold">Beyond Identity</span>&nbsp;/&nbsp;<span>Sr. Software Engineer</span></div>
+            <div className="text-gray-500 dark:text-zinc-300 text-xs">March 2022 - PRESENT,  Remote, NY</div>
+            <div className="pt-2 pb-2">Front-end developer specializing in React and NextJS. Working on web-based admin portals for secure workforce and secure customer product lines. Contributing member of a team of eight front-end developers who support the whole company.</div>
+          </div>
+          <div className="pt-3 pb-1 dark:text-white">
             <div><span className="font-bold">Comcast, Inc</span>&nbsp;/&nbsp;<span>Sr. Software Engineer</span></div>
-            <div className="text-gray-500 dark:text-zinc-300 text-xs">June 2016 - PRESENT,  Denver, CO</div>
+            <div className="text-gray-500 dark:text-zinc-300 text-xs">June 2016 - March 2022,  Denver, CO</div>
             <div className="pt-2 pb-2">Full-stack Angular/NodeJS developer who brought multiple Java microservices together into a dynamic, web-based, advertising portal. The only UI developer on a team of nine.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
