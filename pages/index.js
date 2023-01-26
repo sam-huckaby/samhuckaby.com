@@ -81,17 +81,17 @@ export default function Home() {
           <div className="pt-3 pb-1 dark:text-white">
             <div className="flex flex-col md:flex-row">
               <div className="flex flex-col flex-auto">
-                <div className="font-bold"><Link href="https://tcg.online/"><a className="font-bold hover:text-red-500">TCG Online</a></Link></div>
+                <div className="font-bold"><Link href="#"><a className="font-bold hover:text-red-500">OSS.rip</a></Link></div>
                 <div className="text-gray-500 dark:text-zinc-300 text-xs"><a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://www.sanity.io/" target="_blank">Sanity</a>, <a href="https://vercel.com/" target="_blank">Vercel</a></div>
               </div>
               <div className="flex-auto flex flex-row justify-start md:justify-end items-center pt-2 md:pt-0 mr-2">
-                <a href="https://github.com/sam-huckaby/tcg-online" target="_blank" rel="noreferrer">
+                <a href="https://github.com/sam-huckaby/oss.rip" target="_blank" rel="noreferrer">
                   <img className="inline dark:hidden dark:w-0" src="/GitHub-Mark-32px.png" height={32} width={32} />
                   <img className="hidden dark:inline" src="/GitHub-Mark-Light-32px.png" height={32} width={32} />
                 </a>
               </div>
             </div>
-            <div className="pt-2 pb-2">A place for Trading Card Game enthusiasts to find utilities for playing online and in-person, as well as learn more about the games they love.</div>
+            <div className="pt-2 pb-2">A place for Open Source Software enthusiasts to find new software, as well as learn about and make fun of the software they love.</div>
           </div>
           <div className="pt-3 pb-1 dark:text-white">
             <div className="flex flex-col md:flex-row">
