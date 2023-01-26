@@ -166,7 +166,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by&nbsp;
-          <span className="bg-white pt-3 pr-3 pb-3 pl-0"><img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" /></span>
+          <span className="bg-white pt-3 pr-3 pb-3 pl-0"><img src="/vercel.svg" alt="Vercel Logo" width="70" height="16" className="h-4 ml-2" /></span>
         </a>
       </footer>
     </div>
