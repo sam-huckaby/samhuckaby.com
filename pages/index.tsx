@@ -9,6 +9,19 @@ import { ProjectListing, ProjectProps } from '../components/ProjectListing.compo
 export default function Home() {
   const projects: ProjectProps[] = [
     {
+      name: "Camelaunch",
+      link: "https://camelaunch.com/",
+      description: "[IN DEVELOPMENT] I love OCaml and indie hacking, but it has been historically difficult to use OCaml for indie hacking because it is complicated to deploy. Camelaunch is going to be a deployment management app that allows you to link an OCaml GitHub repo (structured in a certain way to start) and input your Digital Ocean token to deploy your app in one click.",
+      tech: [
+        { link: "https://ocaml.org/", name: "OCaml" },
+        { link: "https://htmx.org/", name: "Htmx" },
+        { link: "https://aantron.github.io/dream/", name: "Dream" },
+        { link: "https://supabase.com/", name: "Supabase" },
+        { link: "https://fly.io/", name: "Fly.io" },
+      ],
+      repos: ["https://github.com/sam-huckaby/whnvr"],
+    },
+    {
       name: "Bit Conquest",
       link: "https://www.bitconquest.com/",
       description: "A place for developers to showcase all of the awesome domains they have acquired!",
@@ -23,30 +36,30 @@ export default function Home() {
     {
       name: "WHNVR",
       link: "https://whnvr.com/",
-      description: "The anti-social network, where people can go to scream into the void. Messages live for 24 hours before self-destructing.",
+      description: "The anti-social network, where people can go to scream into the void. Messages live for 24 hours before self-destructing. WHNVR leverages passkeys for a completely secure and completely seamless login flow that makes it easy to post and eliminates the fear of account takeover.",
       tech: [
         { link: "https://ocaml.org/", name: "OCaml" },
         { link: "https://htmx.org/", name: "Htmx" },
         { link: "https://aantron.github.io/dream/", name: "Dream" },
+        { link: "https://beyondidentity.com/", name: "Passkeys" },
         { link: "https://supabase.com/", name: "Supabase" },
+        { link: "https://fly.io/", name: "Fly.io" },
       ],
       repos: ["https://github.com/sam-huckaby/whnvr"],
     },
     {
-      name: "OSS.rip",
-      link: "#",
-      description: "A place for Open Source Software enthusiasts to find new software, as well as learn about and make fun of the software they love.",
+      name: "Huckabytes",
+      link: "https://youtube.com/@TheSamHuckaby",
+      description: "Byte-sized learning videos that cover topics I'm currently interested in, relating to my job or indie hacking projects.",
       tech: [
-        { link: "https://nextjs.org/", name: "NextJS" },
-        { link: "https://www.sanity.io/", name: "Sanity" },
-        { link: "https://vercel.com/", name: "Vercel" },
+        { link: "https://www.shure.com/en-US/products/microphones/mv7?variant=MV7-K", name: "Shure MV7 Mic" },
       ],
-      repos: ["https://github.com/sam-huckaby/oss.rip"],
+      repos: [],
     },
     {
       name: "Fuel PM (Project Management)",
       link: "https://fuelpm.com",
-      description: "Project management should fuel your organization, not slow it down and annoy it. Fuel is a mobile-first project management tool that is designed to be used as little as possible.",
+      description: "[TEMPORARILY OFFLINE] Project management should fuel your organization, not slow it down and annoy it. Fuel is a mobile-first project management tool that is designed to be used as little as possible.",
       tech: [
         { link: "https://nextjs.org/", name: "NextJS" },
         { link: "https://tailwindcss.com/", name: "TailwindCSS" },
@@ -66,7 +79,10 @@ export default function Home() {
         property="og:description"
         content="Professional profile for Sam Huckaby, Sr. Software Engineer"
       />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <link rel="manifest" href="/site.webmanifest" />
     </Head>
 
     <main className="grid grid-cols-3 gap-2 w-full p-8 max-w-4xl">
