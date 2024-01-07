@@ -22,6 +22,17 @@ export default function Home() {
       repos: ["https://github.com/sam-huckaby/whnvr"],
     },
     {
+      name: "HomeThink",
+      link: "https://www.homethink.org/",
+      description: "A place for parents and students to partner together to learn and grow. I'm adding new exercises as I hear about more student work in local schools. My goal is to assist both public school and home school parents in their journey to raise and educate our next generation.",
+      tech: [
+        { link: "https://nextjs.org/", name: "NextJS" },
+        { link: "https://tailwindcss.com/", name: "TailwindCSS" },
+        { link: "https://vercel.com/", name: "Vercel" },
+      ],
+      repos: ["https://github.com/sam-huckaby/kindergarten"],
+    },
+    {
       name: "Bit Conquest",
       link: "https://www.bitconquest.com/",
       description: "A place for developers to showcase all of the awesome domains they have acquired!",
@@ -93,57 +104,57 @@ export default function Home() {
       <div className="pt-5 pb-5 items-start md:items-center justify-end md:justify-center flex flex-col col-span-3 md:col-span-2">
         <ContactButton></ContactButton>
       </div>
-      <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
+      <div className={`${styles['label-top-border']} col-span-3 md:col-span-1 font-bold pt-3 pb-1 dark:text-white text-2xl md:text-base`}>
         <p>Profile</p>
       </div>
-      <div className="pt-3 pb-1 border-t-4 border-black dark:text-white col-span-2">
-        <p className='p-2'>A curious developer and people person who likes to build new things. I specialize in making "techie" understandable to regular people. I have spent the last decade working in web technologies like Angular, Node, React, and NextJS both in team member and team lead roles. I love a challenge, whether it’s learning a new programming language or a new technical stack. I love to help other developers reach their full potential.</p>
-        <p className='p-2'>I am always learning, usually a new programming language or framework. Currently I am learning the OCaml language, and experimenting with the Laravel framework. My own experience makes me fond of indie hacking and I am currently working on tooling that will make it easier to take OCaml web apps to production faster. You can learn more about my current silly side projects below.</p>
+      <div className="pt-3 pb-1 border-t-4 border-black dark:text-white col-span-3 md:col-span-2">
+        <p className='py-2'>A curious developer and people person who likes to build new things. I specialize in making "techie" understandable to regular people. I have spent the last decade working in web technologies like Angular, Node, React, and NextJS both in team member and team lead roles. I love a challenge, whether it’s learning a new programming language or a new technical stack. I love to help other developers reach their full potential.</p>
+        <p className='py-2'>I am always learning, usually a new programming language or framework. Currently I am learning the OCaml language, and experimenting with the Laravel framework. My own experience makes me fond of indie hacking and I am currently working on tooling that will make it easier to take OCaml web apps to production faster. You can learn more about my current silly side projects below.</p>
       </div>
-      <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
+      <div className={`${styles['label-top-border']} col-span-3 md:col-span-1 font-bold pt-3 pb-1 dark:text-white text-2xl md:text-base`}>
         <p>Experience</p>
       </div>
-      <div className="border-t-4 border-black flex flex-col col-span-2">
+      <div className="border-t-4 border-black flex flex-col col-span-3 md:col-span-2">
         <div className="pt-3 pb-1 dark:text-white">
-          <div><span className="font-bold">Beyond Identity</span>&nbsp;/&nbsp;<span>Sr. Software Engineer</span></div>
+          <div><span className="font-bold text-red-500">Beyond Identity</span>&nbsp;/&nbsp;<span>Sr. Software Engineer</span></div>
           <div className="text-gray-500 dark:text-zinc-300 text-xs">March 2022 - PRESENT,  Remote, NY</div>
           <div className="pt-2 pb-2">Front-end developer specializing in React and NextJS. Working on web-based admin portals for secure workforce and secure customer product lines. Contributing member of a team of front-end developers who support the whole company.</div>
         </div>
         <div className="pt-3 pb-1 dark:text-white">
-          <div><span className="font-bold">Comcast, Inc</span>&nbsp;/&nbsp;<span>Sr. Software Engineer</span></div>
+          <div><span className="font-bold text-red-500">Comcast, Inc</span>&nbsp;/&nbsp;<span>Sr. Software Engineer</span></div>
           <div className="text-gray-500 dark:text-zinc-300 text-xs">June 2016 - March 2022,  Denver, CO</div>
           <div className="pt-2 pb-2">Full-stack Angular/NodeJS developer who brought multiple Java microservices together into a dynamic, web-based, advertising portal. The only UI developer on a team of nine.</div>
         </div>
         <div className="pt-3 pb-1 dark:text-white">
-          <div><span className="font-bold">Levels Beyond</span>&nbsp;/&nbsp;<span>Software Engineer</span></div>
+          <div><span className="font-bold text-red-500">Levels Beyond</span>&nbsp;/&nbsp;<span>Software Engineer</span></div>
           <div className="text-gray-500 dark:text-zinc-300 text-xs">July 2015 - June 2016,  Denver, CO</div>
           <div className="pt-2 pb-2">Full-stack AngularJS/NodeJS developer who worked with a team of UI developers to ingest and utilize two main Java backend services.</div>
         </div>
         <div className="pt-3 pb-1 dark:text-white">
-          <div><span className="font-bold">ClickFox</span>&nbsp;/&nbsp;<span>Software Engineer</span></div>
+          <div><span className="font-bold text-red-500">ClickFox</span>&nbsp;/&nbsp;<span>Software Engineer</span></div>
           <div className="text-gray-500 dark:text-zinc-300 text-xs">March 2014 - July 2015,  Denver, CO</div>
           <div className="pt-2 pb-2">AngularJS developer who worked to convert an Apache Flex app into HTML5/JS while also building new features. Managed an off-shore team in India of UI developers as well.</div>
         </div>
         <div className="pt-3 pb-1 dark:text-white">
-          <div><span className="font-bold">ClickFox</span>&nbsp;/&nbsp;<span>Associate QA Engineer</span></div>
+          <div><span className="font-bold text-red-500">ClickFox</span>&nbsp;/&nbsp;<span>Associate QA Engineer</span></div>
           <div className="text-gray-500 dark:text-zinc-300 text-xs">October 2013 - March 2014,  Denver, CO</div>
           <div className="pt-2 pb-2">Worked alongside a team of QA Engineers to leverage automated testing frameworks, such as SOAPUI and Selenium to test the existing Apache Flex UI, as well as handling manual testing as needed.</div>
         </div>
       </div>
-      <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
+      <div className={`${styles['label-top-border']} col-span-3 md:col-span-1 font-bold pt-3 pb-1 dark:text-white text-2xl md:text-base`}>
         <p>Education</p>
       </div>
-      <div className="border-t-4 border-black flex flex-col col-span-2">
+      <div className="border-t-4 border-black flex flex-col col-span-3 md:col-span-2">
         <div className="pt-3 pb-1 dark:text-white">
-          <div><span className="font-bold">Cameron University</span>&nbsp;/&nbsp;<span>Bachelors of Science (CS)</span></div>
+          <div><span className="font-bold text-red-500">Cameron University</span>&nbsp;/&nbsp;<span>Bachelors of Science (CS)</span></div>
           <div className="text-gray-500 dark:text-zinc-300 text-xs">August 2009 - May 2012,  Lawton, OK</div>
           <div className="pt-2 pb-2">My degree in Computer science focused most heavily on C-based languages, with the introduction of Java my senior year into the curriculum. I also minored in math, but I promise I’m not actually that boring.</div>
         </div>
       </div>
-      <div className={`${styles['label-top-border']} font-bold pt-3 pb-1 dark:text-white`}>
+      <div className={`${styles['label-top-border']} col-span-3 md:col-span-1 font-bold pt-3 pb-1 dark:text-white text-2xl md:text-base`}>
         <p>Projects</p>
       </div>
-      <div className="border-t-4 border-black flex flex-col col-span-2">
+      <div className="border-t-4 border-black flex flex-col col-span-3 md:col-span-2">
         {projects.map(({ name, description, link, tech, repos }) => <ProjectListing key={name} name={name} description={description} link={link} tech={tech} repos={repos} />)}
       </div>
     </main>

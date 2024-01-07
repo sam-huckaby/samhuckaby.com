@@ -19,8 +19,8 @@ export const ProjectListing = ({ name, link, tech, repos, description }: Project
 		<div className="pt-3 pb-1 dark:text-white">
 			<div className="flex flex-col md:flex-row">
 				<div className="flex flex-col flex-auto">
-					<div className="font-bold"><Link href={link}  aria-label="Visit the project"className="font-bold hover:text-red-500">{name}</Link></div>
-					<div className="text-gray-500 dark:text-zinc-300 text-xs">
+					<div className="font-bold"><Link href={link}  aria-label="Visit the project"className="font-bold text-red-500">{name}</Link></div>
+					<div className="w-full flex flex-row justify-start items-center flex-wrap dark:text-zinc-300 text-xs">
 						{tech.map(({ name, link }) => <a key={name} href={link} target="_blank" className="hover:text-black dark:hover:text-white p-2 pl-0 underline">{name}</a>)}
 					</div>
 				</div>
