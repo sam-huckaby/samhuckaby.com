@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
 import ContactButton from '../components/contactButton.component';
 
@@ -9,17 +8,28 @@ import { ProjectListing, ProjectProps } from '../components/ProjectListing.compo
 export default function Home() {
   const projects: ProjectProps[] = [
     {
-      name: "Camelaunch",
-      link: "https://camelaunch.com/",
-      description: "[IN DEVELOPMENT] I love OCaml and indie hacking, but it has been historically difficult to use OCaml for indie hacking because it is complicated to deploy. Camelaunch is going to be a deployment management app that allows you to link an OCaml GitHub repo (structured in a certain way to start) and input your Digital Ocean token to deploy your app in one click.",
+      name: "Laraml",
+      link: "https://laraml.com/",
+      description: "[IN DEVELOPMENT] OCaml is a beautiful language, but it lacks the strong Web-based app framework that many other languages already have. One of the best examples of these kinds of app frameworks is Laravel, an opinionated PHP framework that lets you build a complete app in virtually seconds. I love Laravel, so I am working to bring a similar sort of experience to OCaml, so that we can rapidly prototype project ideas in 'the beautiful language'.",
       tech: [
         { link: "https://ocaml.org/", name: "OCaml" },
         { link: "https://htmx.org/", name: "Htmx" },
         { link: "https://aantron.github.io/dream/", name: "Dream" },
-        { link: "https://supabase.com/", name: "Supabase" },
-        { link: "https://fly.io/", name: "Fly.io" },
+        { link: "https://github.com/leostera/minttea", name: "Mint Tea" },
       ],
-      repos: ["https://github.com/sam-huckaby/whnvr"],
+      repos: ["https://github.com/sam-huckaby/laraml"],
+    },
+    {
+      name: "Camelaunch",
+      link: "https://camelaunch.com/",
+      description: "[IN DEVELOPMENT] I love OCaml and indie hacking, but it has been historically difficult to use OCaml for indie hacking because it is complicated to deploy. Camelaunch is going to be a deployment management app that allows you to link an OCaml GitHub repo (structured in a certain way to start) and input your Digital Ocean token to deploy your app in one click.",
+      tech: [
+        { link: "https://www.php.net/", name: "PHP" },
+        { link: "https://laravel.com/", name: "Laravel" },
+        { link: "https://www.digitalocean.com/", name: "Digital Ocean" },
+        { link: "https://forge.laravel.com/", name: "Laravel Forge" },
+      ],
+      repos: ["https://github.com/sam-huckaby/camelaunch"],
     },
     {
       name: "HomeThink",
