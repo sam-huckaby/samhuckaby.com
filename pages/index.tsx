@@ -118,8 +118,8 @@ export default function Home() {
         <p>Profile</p>
       </div>
       <div className="pt-3 pb-1 border-t-4 border-black dark:text-white col-span-3 md:col-span-2">
-        <p className='py-2'>A curious developer and people person who likes to build new things. I specialize in making "techie" understandable to regular people. I have spent the last decade working in web technologies like Angular, Node, React, and NextJS both in team member and team lead roles. I love a challenge, whether it’s learning a new programming language or a new technical stack. I love to help other developers reach their full potential.</p>
-        <p className='py-2'>I am always learning, usually a new programming language or framework. Currently I am learning the OCaml language, and experimenting with the Laravel framework. My own experience makes me fond of indie hacking and I am currently working on tooling that will make it easier to take OCaml web apps to production faster. You can learn more about my current silly side projects below.</p>
+        <p className='py-2'>A curious developer and people person who likes to build new things. I enjoy making "techie" understandable to regular people. I have spent the last decade working in web technologies like Angular, Node, React, and NextJS both in team member and team lead roles. I love a challenge, whether it’s learning a new programming language or a new technical stack. I love to help other developers reach their full potential.</p>
+        <p className='py-2'>I am always learning, usually a new programming language or framework. Currently I am learning OCaml and Go, and experimenting with the Laravel framework. I plan to learn Rust next, once I have a good project to work on. My own experience makes me fond of indie hacking and I am currently working on tooling that will make it easier to take OCaml web apps to production faster. You can learn more about my current silly side projects below.</p>
       </div>
       <div className={`${styles['label-top-border']} col-span-3 md:col-span-1 font-bold pt-3 pb-1 dark:text-white text-2xl md:text-base`}>
         <p>Experience</p>
