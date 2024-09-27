@@ -99,11 +99,11 @@ export default class ContactButton extends Component {
 
         try {
             await fetch("/api/utils/contact", {
-              "method": "POST",
-              "headers": { "content-type": "application/json" },
-              "body": JSON.stringify(this.state)
+                "method": "POST",
+                "headers": { "content-type": "application/json" },
+                "body": JSON.stringify(this.state)
             })
-      
+
             // Give the user the feel that something is happening
             setTimeout(async () => {
                 await this.setState({
@@ -119,9 +119,9 @@ export default class ContactButton extends Component {
                     });
                 }, 3000);
             }, 2000);
-          } catch (error) {
-              // Tell the user something...
-          }
+        } catch (error) {
+            // Tell the user something...
+        }
     }
 
     openContactForm() {
@@ -271,6 +271,7 @@ export default class ContactButton extends Component {
                 {this.renderEmailField()}
                 {this.renderMessageField()}
                 {this.renderSendButton()}
+                <div className='italic'>You're right, this form is a little janky</div>
             </div>
         );
     }
